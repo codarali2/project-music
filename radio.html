@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="div_radio">
+        <audio src="" id="music_file" loop></audio>
+        <div id="div_logo">
+            <img src="" id="logo">
+        </div>
+        <h3 id="title">Name music</h3>
+        <div id="img_play">
+            <img src="back.png" class="images" id="back">
+            <img src="play.png" class="images" id="play">
+            <img src="next.png" class="images" id="next">
+        </div>
+        <main>
+            <label>-</label>
+            <label> الصوت </label>
+            <label>+</label>
+            <input type="range" id="volume">
+            <br>
+            <br>
+            <label>-</label>
+            <label> السرعة </label>
+            <label>+</label>
+            <input type="range" id="speed" max="300" min="0">
+        </main>
+    </div>
+    <script src="Controller.js"></script>
+    <script src="volume.js"></script>
+    <script src="speed.js"></script>
+</body>
+</html>
